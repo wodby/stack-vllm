@@ -1,0 +1,16 @@
+name: vllm
+title: vLLM
+
+# vLLM's API key does not protect all of its management/metrics routes.
+access:
+  required: true
+  mode: private_network
+  scope: entire_app
+
+services:
+- name: vllm
+  title: vLLM
+  service: vllm
+  required: true
+  main: true
+  replicas: 1
