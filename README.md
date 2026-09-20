@@ -16,6 +16,8 @@ This stack does not install an operator or create GPU capacity.
 Configure private-network access for the entire app. A vLLM API key alone does
 not protect every management and metrics route; this stack deliberately does
 not expose a public inference server.
+[Application Access](https://wodby.com/docs/2.0/apps/access/) requires a compatible
+integration, managed app routing and an eligible paid subscription.
 
 ## Configure and call the model
 
