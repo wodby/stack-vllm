@@ -4,7 +4,8 @@ Deploy one vLLM inference service on a GPU-ready Kubernetes cluster. The service
 starts with a pinned Qwen3-0.6B model for testing. Qwen is a model selection,
 not a separate service or image.
 
-Status: initial implementation, not released or deployed.
+Status: initial 0.1.0 preview release. End-to-end GPU inference and private-access
+validation are still required before production use.
 
 ## Before deploying
 
