@@ -44,4 +44,32 @@ Application Access suppresses the ordinary public route from app creation;
 use the endpoint reported by Application Access.
 
 <!-- wodby:generated:start -->
+
+## Stack contract
+
+- [vLLM stack on Wodby](https://wodby.com/stacks/vllm)
+- [Browse Wodby application stacks](https://wodby.com/stacks)
+- [Wodby stack documentation](https://wodby.com/docs/2.0/stacks/)
+- [Stack manifest reference](https://wodby.com/docs/2.0/stacks/template/)
+
+## Service definitions
+
+- [vLLM service](https://github.com/wodby/service-vllm)
+
+## What's included
+
+| Component / service | Default configuration |
+| --- | --- |
+| vLLM<br>`vllm` | required; enabled by default |
+
+Enabled optional services are selected by default but can be excluded when an
+app is created. Disabled optional services are available but not selected by
+default. Required services cannot be excluded.
+
+## Validate the stack manifest
+
+```bash
+wodby stack validate-manifest stack.yml --org <org-id>
+```
+
 <!-- wodby:generated:end -->
