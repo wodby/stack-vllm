@@ -1,6 +1,7 @@
 name: vllm
 title: vLLM
 icon: vllm
+docs: https://wodby.com/docs/2.0/stacks/catalog/vllm/
 
 # vLLM's API key does not protect all of its management/metrics routes.
 access:
